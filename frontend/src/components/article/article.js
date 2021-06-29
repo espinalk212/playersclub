@@ -1,7 +1,7 @@
-import React from "react";
-import "./article.css";
-import "../../reset.css";
-
+import React from 'react';
+import './article.css';
+import '../../reset.css';
+// just need something to push
 class Article extends React.Component {
   componentDidMount() {
     this.props.fetchArticles();
